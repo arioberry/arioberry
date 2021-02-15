@@ -123,7 +123,16 @@
             width: 80%;
               box-shadow: 2px 2px 4px gray;
           }
-          
+
+        .box2 {
+            padding: 10px 10px;
+                margin: 1.0em auto;
+            background: #f2e6ff;
+              border: solid 1px #615c66;/*線*/
+              border-radius: 10px;/*角の丸み*/
+            width: 80%;
+              box-shadow: 2px 2px 4px gray;
+        }
         .index {
             display: flex;
             justify-content: center;
@@ -213,9 +222,13 @@
             margin: 30px auto;
         }
 
+        a:link {
+            color:rgb(16, 16, 16);
+        }
+
         a:hover {
             color: #b2d4ce;
-          }
+        }
           
         @media screen and (min-width: 641px) {
 
