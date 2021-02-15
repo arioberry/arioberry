@@ -225,7 +225,9 @@
         a:link {
             color:rgb(16, 16, 16);
         }
-
+        a:visited {
+            color:rgb(16, 16, 16)
+        }
         a:hover {
             color: #b2d4ce;
         }
