@@ -79,7 +79,7 @@
             background:rgb(230, 248, 255);
             max-width:700px;
             margin:auto;
-            padding:20px 30px;
+            padding:20px 30px 80px;
             box-sizing:border-box;
             position: relative;
         }
@@ -232,6 +232,22 @@
             color: #b2d4ce;
         }
           
+        .ss {
+            line-height: 1.75;
+            letter-spacing: -0.5px;
+            font-size:0.9rem;
+            color:rgb(16, 16, 16);
+            text-shadow: 1px 1px 1px rgba( 0, 0, 0, 0.15 );
+        }
+
+        .sstxt {
+            display: block;
+            color: #7d9b95;
+            font-size:14px;
+            text-align: center;
+            margin: auto auto 10px;
+        }
+
         @media screen and (min-width: 641px) {
 
         }
