@@ -84,6 +84,15 @@
             position: relative;
         }
 
+        .body-w {
+            background:rgb(230, 248, 255);
+            max-width:800px;
+            margin:auto;
+            padding:50px 30px 80px;
+            box-sizing:border-box;
+            position: relative;
+        }
+
         .main {
             display: flex;
         }
@@ -165,7 +174,7 @@
         }
         
         .index_h1 {
-            font-size: 140%;
+            font-size: 180%;
             display: block;
             margin: 20px auto 50px;
             text-align: center;
@@ -173,8 +182,11 @@
         }
 
         .index_h2 {
-            font-size:18px;
-            margin-bottom:5px;
+            font-size: 140%;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            color: #313536;
         }
         
         h3 {
@@ -220,6 +232,7 @@
         .hana {
             display: block;
             margin: 30px auto;
+            max-width:48px;
         }
 
         a:link {
