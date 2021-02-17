@@ -261,6 +261,10 @@
             margin: auto auto 10px;
         }
 
+        .center {
+            text-align: center;
+        }
+
         summary {
             cursor: pointer;
             outline: none;
