@@ -280,6 +280,10 @@
             height:120px;
             object-fit:cover;
             margin: 5px;
+        }    
+         
+        .pict:hover {
+            filter: brightness(110%) blur(1px) drop-shadow(3px 3px 3px rgba(26, 34, 51, 0.2));
         }
 
         @media screen and (min-width: 641px) {
