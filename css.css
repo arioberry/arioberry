@@ -283,7 +283,7 @@
         }    
          
         .pict:hover {
-            filter: brightness(110%) blur(1px) drop-shadow(3px 3px 3px rgba(26, 34, 51, 0.2));
+            filter: brightness(110%) drop-shadow(0px 0px 5px rgba(26, 34, 51, 0.1));
         }
 
         @media screen and (min-width: 641px) {
