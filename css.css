@@ -112,6 +112,21 @@
             font-family: 'メイリオ', Meiryo,'ヒラギノ角ゴシック','Hiragino Sans','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
         }
 
+        .footer {
+            position: fixed;	/* フッターを固定する */
+            bottom: 0;	/* 上部から配置の基準位置を決める */ 
+            left: 0;	/* 左から配置の基準位置を決める */ 
+            right:0;
+            height:4px;	/* フッターの高さを指定する */
+            padding-left: 20%;
+            padding-right: 20%;
+            padding-top: 5px;
+            padding-bottom:25px;	/* フッター内側の余白を指定する(上下左右) */  
+            background: #6f91b1;/* フッターの背景色を指定する */
+            color: #fff;	/* フッターのフォントの色を指定する */
+            display: flex;
+            justify-content: space-around;
+        }
 
         img {
             max-width:100%;
