@@ -118,11 +118,11 @@
             left: 0;	/* 左から配置の基準位置を決める */ 
             right:0;
             height:4px;	/* フッターの高さを指定する */
-            padding-left: 20%;
-            padding-right: 20%;
+            padding-left: 30%;
+            padding-right: 30%;
             padding-top: 5px;
             padding-bottom:25px;	/* フッター内側の余白を指定する(上下左右) */  
-            background: #6f91b1;/* フッターの背景色を指定する */
+            background: #82a4d6;/* フッターの背景色を指定する */
             color: #fff;	/* フッターのフォントの色を指定する */
             display: flex;
             justify-content: space-around;
